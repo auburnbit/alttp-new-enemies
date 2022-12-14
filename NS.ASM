@@ -2,6 +2,7 @@ lorom
 
 !BRAND = $7EF500
 
+;Note: Comments are lined up nicely on NP++, but all over the place on GitHub!
 ;OVERWRITE BLOCK ---------------------------------------------------------------------------
 
 org $0DB81C								;EXCEPTION FOR SPRITE #$03 IN INITIALIZATION CODE
@@ -964,7 +965,7 @@ SR_NS2_MOVECHECK:
 	LDA $0DD0, X 		
 	CMP #$09									;is the sprite alive?
 
-	BNE BR_NS2_CANCEL							;No, it’s dead/something else.
+	BNE BR_NS2_CANCEL							;No, itÂ’s dead/something else.
 
 	LDA $0FC1;
 
