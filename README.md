@@ -1,4 +1,6 @@
 # alttp-new-enemies
 Ancient 65c816 assembly project to insert fully custom new enemies with new AI into Zelda: ALTTP
 
-Meant to be compiled with xkas v0.06 (at least it did 14 years ago...)
+Meant to be compiled with xkas v0.06, but I'm not sure if this version is compilable as is as I found it on an old PC from years ago.
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/in9AiswPuAw" title="ALTTP Custom Enemy Test (Blue Bot)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
