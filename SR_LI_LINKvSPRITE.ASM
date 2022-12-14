@@ -1,3 +1,5 @@
+;Note: Comments are lined up nicely on NP++, but all over the place on GitHub!
+
 !BLUEBOT 	= #$00
 !FAERIE		= #$00
 !BRAND		= $7F8500
@@ -47,7 +49,7 @@ CMP $0F20, X					;Is the sprite on the same floor as Link?
 
 BNE BR_LI_NOHIT					;If not, branch, we're not colliding.
 
-LDA $0F60, X					;BITS 4 – 0 = determines the sprite's "size class" for weapon/sprite collision purposes.
+LDA $0F60, X					;BITS 4 â€“ 0 = determines the sprite's "size class" for weapon/sprite collision purposes.
 
 BEQ BR_LI_SAMESIZE				;branch if sprite is same size as Link.
 
@@ -485,19 +487,19 @@ STZ $0D							;Height value of sprite stored to WR-C&D
 
 REP #$20						;(M:16bit)
 
-LDA $22							;$22-$23 Link’s X-Coordinate (mirrored at $0FC2)
+LDA $22							;$22-$23 Linkâ€™s X-Coordinate (mirrored at $0FC2)
 
 SEC
-SBC $0FD8						;The lower byte of the current sprite's X – coordinate ($0FD9 - The upper byte of the current sprite's X – coordinate)
+SBC $0FD8						;The lower byte of the current sprite's X â€“ coordinate ($0FD9 - The upper byte of the current sprite's X â€“ coordinate)
 CLC
 ADC #$000B
 CMP #$0017
 
 BCS BR_LId_NOTOUCH				;if we're not in a vertical line with the sprite, CLC and end
 
-LDA $20							;$20-$21 Link’s Y-Coordinate (mirrored at $0FC4)
+LDA $20							;$20-$21 Linkâ€™s Y-Coordinate (mirrored at $0FC4)
 SEC
-SBC $0FDA						;The lower byte of the current sprite's Y – coordinate ($0FDB - The upper byte of the current sprite's Y – coordinate)
+SBC $0FDA						;The lower byte of the current sprite's Y â€“ coordinate ($0FDB - The upper byte of the current sprite's Y â€“ coordinate)
 CLC
 ADC $0C
 CLC
