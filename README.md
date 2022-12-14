@@ -3,7 +3,7 @@
 
 Meant to be compiled with xkas v0.06.
 
-Here is a video of a custom enemy inserted into the game. While the enemy AI may appear similar to some other enemies already in the game, all AI code was written by hand and the logic could theoretically be fully customized. 
+Below is a video of a custom enemy inserted into the game. While the enemy AI may appear similar to some other enemies already in the game, all AI code was written by hand and the logic could theoretically be fully customized. 
 
 Click to be taken to YouTube to view it:
 
